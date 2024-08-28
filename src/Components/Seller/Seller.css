@@ -1,0 +1,13 @@
+
+.seller {
+    padding: 10px 10% 10px;
+  }
+  
+  .seller-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 1.7rem;
+    margin-top: 4rem;
+  }
+  

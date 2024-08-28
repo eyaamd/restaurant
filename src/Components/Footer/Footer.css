@@ -1,0 +1,33 @@
+.footer_container {
+display: flex;
+justify-content: space-around;
+margin: 5% 0 5% 0;}
+
+.footer-box .logo img {
+  width: 170px;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.footer-box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.footer-box li {
+  margin-bottom: 14px;
+}
+.footer-box li a {
+  display: block;
+  color: var(--other-color);
+  font-size: var(--p-font);
+  transition: all 0.6s ease;
+}
+
+.footer-box li a:hover {
+  transform: translateY(-6px);
+  color: var(--main-color);
+}
